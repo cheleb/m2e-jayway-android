@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+  <extension
+         point="org.eclipse.m2e.core.lifecycleMappingMetadataSource">
+   </extension> 
+     <extension
+           point="org.eclipse.m2e.core.projectConfigurators">
+        <configurator
+              class="com.jayway.maven.plugins.android.generation2.m2e.core.configurator.AndroidConfigurator"
+              id="com.jayway.maven.plugins.android.generation2.m2e.core.configurator.androidConfigurator"
+              name="Android configurator"
+              >
+        </configurator>
+     </extension>
+</plugin>

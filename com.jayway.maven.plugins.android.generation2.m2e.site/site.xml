@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description>
+      Maven Integration for Eclipse Android
+   </description>
+   <feature url="features/com.jayway.maven.plugins.android.generation2.m2e.feature_1.0.0.qualifier.jar" id="com.jayway.maven.plugins.android.generation2.m2e.feature" version="1.0.0.qualifier">
+      <category name="Android"/>
+   </feature>
+   <category-def name="Android" label="Maven Integration for Eclipse Android"/>
+</site>
