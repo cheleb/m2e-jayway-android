@@ -9,6 +9,7 @@
 				<versionRange>[1.0.0,)</versionRange>
 				<goals>
 					<goal>proguard</goal>
+					<goal>manifest-update</goal>
 				</goals>
 			</pluginExecutionFilter>
 			<action>
